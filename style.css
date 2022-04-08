@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.container{
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+.container .imagenContainer{
+    min-height: 100vh;
+    width: 100%;
+    background: url('./img/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 2.5rem;
+    transform: translate(-50%,-50%);
+}
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 2.5rem;
+    transform: translate(50%,-50%);
+}
